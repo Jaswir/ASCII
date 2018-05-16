@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "boulevard",
     "id": "90d57dbd-d97f-4b23-a9b0-78427dd2e0cd",
     "creationCodeFile": "",
     "inheritCode": false,

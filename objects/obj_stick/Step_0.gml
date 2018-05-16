@@ -26,7 +26,6 @@ else if keyboard_check(vk_right){
 //Cheap vertical walking
 if(sprite_index == spr_stick){
 	sprite_index = spr_stick_walkright;
-	image_xscale = abs(image_xscale);
 	image_speed = animSpeed;	
 }
 

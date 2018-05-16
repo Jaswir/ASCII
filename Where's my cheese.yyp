@@ -95,11 +95,27 @@
             }
         },
         {
+            "Key": "732243e7-b7b5-41b2-a8bc-74843e39069e",
+            "Value": {
+                "id": "dca060f7-bf8a-454c-b5c4-95c6fae0279f",
+                "resourcePath": "sprites\\spr_stick_hit\\spr_stick_hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74855f02-21c9-43df-bdaf-5def2e6caab7",
             "Value": {
                 "id": "e8c272c5-f7fc-4019-b2cd-a4bca5a92a9b",
                 "resourcePath": "views\\74855f02-21c9-43df-bdaf-5def2e6caab7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "752eb19e-a615-443a-9947-75064b62aab5",
+            "Value": {
+                "id": "3591bb40-9957-45a7-899e-03d787e551c6",
+                "resourcePath": "objects\\obj_stick_weapon\\obj_stick_weapon.yy",
+                "resourceType": "GMObject"
             }
         },
         {

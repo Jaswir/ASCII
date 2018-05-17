@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "4edd3a60-49cf-4123-af1c-b38c441d5fa1",
+            "Value": {
+                "id": "6508a00c-d349-40d1-95d2-b0e4210648c2",
+                "resourcePath": "sprites\\spr_mouse_death\\spr_mouse_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57475f35-8d08-40b3-9611-2d2915842a86",
+            "Value": {
+                "id": "e7175421-fe0a-4567-b5c7-fc8a7c36f7d0",
+                "resourcePath": "objects\\obj_mouse\\obj_mouse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "64edcb7a-6d42-44c3-9b0f-8d07a4cde78b",
             "Value": {
                 "id": "56dc2b1a-9185-4e27-aaba-9bcff6bc2e2f",
@@ -156,6 +172,14 @@
                 "id": "352dab92-1ea2-4a26-8816-368ed0dcbbbb",
                 "resourcePath": "views\\86426456-e472-4507-9672-277e98399668.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "90cee05c-bc74-4902-a7f6-c61a02618489",
+            "Value": {
+                "id": "1081be44-3047-49ac-8e16-9f164ba8aa1a",
+                "resourcePath": "sprites\\spr_mouse\\spr_mouse.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

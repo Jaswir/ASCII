@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+collided = false;
 //draw_self();
 
 //draw_set_colour(c_white);

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-vspeed += speedVer;
+//vspeed += speedVer;
 
 if(y > 600 + sprite_height){
 	

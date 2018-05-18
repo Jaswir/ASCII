@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1d88fae6-7319-4ed1-8a63-fbef9bdb9b4d",
+            "Value": {
+                "id": "2746a211-6efd-4223-8419-31bac80f33da",
+                "resourcePath": "sounds\\snd_gameover\\snd_gameover.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "28fa0330-932e-4a16-8896-bfca661e522f",
             "Value": {
                 "id": "e0136d99-32ac-4650-9d43-476e484022c3",
@@ -180,6 +188,14 @@
                 "id": "7b0f2319-a492-4f08-b52f-79cf2d5e533f",
                 "resourcePath": "rooms\\level1\\level1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "989dfa42-3463-4de8-a9f5-4acc689cb2bd",
+            "Value": {
+                "id": "ba6973d2-4dfb-4d8e-97df-075b1d428431",
+                "resourcePath": "sounds\\snd_fit\\snd_fit.yy",
+                "resourceType": "GMSound"
             }
         },
         {

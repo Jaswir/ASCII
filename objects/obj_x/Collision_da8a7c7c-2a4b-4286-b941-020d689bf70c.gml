@@ -15,11 +15,7 @@ with(obj_ball){
 
 if(!obj_gm.lev1){
 
-	with(obj_ball){
-		alarm[0] = bounceResponseTime;
-	
-	}
-	
+	with(obj_ball){ alarm[0] = bounceResponseTime; }	
 	obj_gm.lev1 = true;
 }
 

@@ -3,10 +3,9 @@
 
 if(caught) exit
 
-
+image_index = 1;
 caught = true;
 audio_play_sound(snd_caught, 1, false);
-alarm[0] = 5;
 
 with(obj_ball){
 		speed = 0;
@@ -14,9 +13,31 @@ with(obj_ball){
 }
 
 if(!obj_gm.lev1){
-
-	with(obj_ball){ alarm[0] = bounceResponseTime; }	
+	
+	alarm[4] = 70;
+	with(obj_ball){ 	
+		alarm[0] = 90; 
+		other.alarm[2] = 90;
+	}	
+	
 	obj_gm.lev1 = true;
 }
 
+else{
+	
+	if(!obj_gm.lev2started){
+		alarm[5] = 50;
+		with(obj_ball){		
+			alarm[2] = 70; 
+			other.alarm[2] = 70;
+		}
+		obj_gm.lev2started = true;
+		exit;
+	}
+	
+	with(obj_ball){		
+		alarm[2] = bounceResponseTime; 
+		other.alarm[2] = bounceResponseTime;
+	}
+}
 

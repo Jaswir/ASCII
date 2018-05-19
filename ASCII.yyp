@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "8a86d61e-056a-45af-8390-3f134f1ac335",
+            "Value": {
+                "id": "fca4148b-2d0d-46dc-8596-a239d93e934f",
+                "resourcePath": "sounds\\snd_left\\snd_left.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "90d57dbd-d97f-4b23-a9b0-78427dd2e0cd",
             "Value": {
                 "id": "7b0f2319-a492-4f08-b52f-79cf2d5e533f",

@@ -1,11 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(!visible) exit;
 if(caught) exit
+
 
 image_index = 1;
 caught = true;
 audio_play_sound(snd_caught, 1, false);
+
+var ballvspeed = obj_ball.vspeed;
+var absspeed = abs(ballvspeed);
 
 with(obj_ball){
 		speed = 0;
@@ -35,9 +40,22 @@ else{
 		exit;
 	}
 	
+	if(absspeed > 50){
+		
+		with(obj_ball) vspeed = ballvspeed / 10;
+		room_speed = 5;
+		instance_create_layer(x, y, "Instances", obj_break_effect);		
+		visible = false;	
+		obj_blinking_cursor.visible = true;
+		obj_gm.won = true;
+		
+		exit;
+	}
+		
 	with(obj_ball){		
 		alarm[2] = bounceResponseTime; 
 		other.alarm[2] = bounceResponseTime;
+	
 	}
 }
 

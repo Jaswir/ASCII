@@ -53,7 +53,6 @@ else{
 		room_speed = 5;
 		instance_create_layer(x, y, "Instances", obj_break_effect);		
 		visible = false;	
-		obj_blinking_cursor.visible = true;
 		obj_gm.won = true;
 		
 		exit;

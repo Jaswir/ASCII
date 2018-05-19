@@ -7,6 +7,4 @@ alarm[1] = bounceDuration;
 instance_create_layer(x, y, "Instances", obj_bounce_effect);
 up = false;
 
-//Cursor
-obj_blinking_cursor.visible = true;
 

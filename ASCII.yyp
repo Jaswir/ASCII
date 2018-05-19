@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "01481c37-11aa-47e5-8a57-c7f94340c015",
+            "Value": {
+                "id": "a87205f6-24eb-424c-bd5a-e75cd6ba2a16",
+                "resourcePath": "views\\01481c37-11aa-47e5-8a57-c7f94340c015.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0c83fbd1-e74d-489c-a535-3f0337486732",
+            "Value": {
+                "id": "27ab8c2c-7b28-4930-a8af-b19b040b3dd9",
+                "resourcePath": "sounds\\snd_robotcaught\\snd_robotcaught.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "10413cc3-7b0d-44a2-b75d-37d023e78f84",
             "Value": {
                 "id": "ad3ea524-282a-43e1-861a-b4d8f5cb1bef",
@@ -103,6 +119,14 @@
             }
         },
         {
+            "Key": "23e5428c-b1ad-45b2-8288-2265244983a4",
+            "Value": {
+                "id": "7195e148-bfdc-46a6-bdd4-6b444c489ecf",
+                "resourcePath": "objects\\obj_caught\\obj_caught.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28fa0330-932e-4a16-8896-bfca661e522f",
             "Value": {
                 "id": "e0136d99-32ac-4650-9d43-476e484022c3",
@@ -138,7 +162,7 @@
             "Key": "38d14271-1b20-48ea-ac8e-161dcdcf8dcb",
             "Value": {
                 "id": "18d9981d-afc3-44a3-a75b-79cc001f1dd7",
-                "resourcePath": "sounds\\snd_catch\\snd_catch.yy",
+                "resourcePath": "sounds\\snd_robotcatch\\snd_robotcatch.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -267,6 +291,14 @@
             "Value": {
                 "id": "fca4148b-2d0d-46dc-8596-a239d93e934f",
                 "resourcePath": "sounds\\snd_left\\snd_left.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8d4bdbee-e9b1-4909-bc22-41762009a36f",
+            "Value": {
+                "id": "d22acc58-3dd7-4727-9d54-e6492eee8bc9",
+                "resourcePath": "sounds\\snd_submission\\snd_submission.yy",
                 "resourceType": "GMSound"
             }
         },

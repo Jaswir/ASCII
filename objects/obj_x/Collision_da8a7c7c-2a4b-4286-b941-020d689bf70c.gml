@@ -17,6 +17,13 @@ with(obj_ball){
 		verSpeed = 0.0;
 }
 
+if(obj_gm.won){
+	audio_play_sound(snd_submission, 1, false);
+	instance_create_layer(x, y, "Instances", obj_caught);
+	exit;
+}
+
+
 if(!obj_gm.lev1){
 	
 	alarm[4] = 70;

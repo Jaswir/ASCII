@@ -6,4 +6,4 @@ alarm[3] = bounceDuration;
 instance_create_layer(x, y, "Instances", obj_bounce_effect);	
 bounces ++;
 bounces *= 1.2;
-up = !up;
+

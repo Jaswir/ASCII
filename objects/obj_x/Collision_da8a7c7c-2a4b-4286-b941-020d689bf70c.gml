@@ -9,12 +9,12 @@ image_index = 1;
 caught = true;
 audio_play_sound(snd_caught, 1, false);
 
-var ballvspeed = obj_ball.vspeed;
-var absspeed = abs(ballvspeed);
+var ballspeed = obj_ball.speed;
+var absspeed = abs(ballspeed);
 
 with(obj_ball){
 		speed = 0;
-		verSpeed = 0.0;
+		spd = 0.0;
 }
 
 if(obj_gm.won){
@@ -47,9 +47,9 @@ else{
 		exit;
 	}
 	
-	if(absspeed > 50){
+	if(absspeed > 25){
 		
-		with(obj_ball) vspeed = ballvspeed / 10;
+		with(obj_ball) speed = ballspeed / 10;
 		room_speed = 5;
 		instance_create_layer(x, y, "Instances", obj_break_effect);		
 		visible = false;	

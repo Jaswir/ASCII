@@ -7,16 +7,19 @@ if(caught) exit
 
 image_index = 1;
 caught = true;
-audio_play_sound(snd_caught, 1, false);
-score++;
-
-var ballspeed = obj_ball.speed;
-var absspeed = abs(ballspeed);
 
 with(obj_ball){
-		speed = 0;
-		spd = 0.0;
+		
+		if(active){
+			score++;
+			audio_play_sound(snd_score, 1, false);
+			speed = 0;
+			spd = 0.0;		
+			alarm[0] = 15;
+			active = false;	
+		}
 }
+
 
 
 //if(obj_gm.won){

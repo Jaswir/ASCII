@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-<<<<<<< HEAD
-speed += spd;
-=======
-speed += spd;
->>>>>>> master
+
+if(pushbacks == 2 && !maxto2) {
+	maxto2 = true;
+	maxpushes ++;
+}

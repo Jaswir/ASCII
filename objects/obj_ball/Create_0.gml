@@ -3,12 +3,18 @@
 
 randomize();
 image_speed = 0;
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 audio_play_sound(snd_ball_fall, 1, false);
 speed = 1;
 spd = obj_gm.spd;
 direction = 270;
 active = true;
+<<<<<<< HEAD
 
 
 lifes = obj_gm.lifes;
+=======
+>>>>>>> master

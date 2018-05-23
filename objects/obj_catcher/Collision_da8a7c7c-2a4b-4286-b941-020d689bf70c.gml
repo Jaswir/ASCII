@@ -11,6 +11,7 @@ caught = true;
 if(obj_gm.pushaway){
 
 	with(obj_ball){
+<<<<<<< HEAD
 			speed = 0;
 			spd = 0.0;
 			if(active){
@@ -33,10 +34,23 @@ if(obj_gm.pushaway){
 	//Otherwise push away
 	alarm[0] = obj_gm.pushbackdelay;
 	obj_gm.pushbackdelay = 1;	
+=======
+		if(active){
+			score++;
+			audio_play_sound(snd_score, 1, false);
+			speed = 0;
+			spd = 0.0;		
+			active = false;
+		}
+	}
+	
+	alarm[0] = obj_gm.pushbackdelay;
+>>>>>>> master
 	
 	exit;	
 }
 
+<<<<<<< HEAD
 else if(obj_gm.pushover){
 	
 	with(obj_ball){
@@ -60,5 +74,19 @@ else if(obj_gm.pushover){
 
 //Catch ball
 alarm[11] = 1;
+=======
+with(obj_ball){
+		
+		if(active){
+			score++;
+			audio_play_sound(snd_score, 1, false);
+			speed = 0;
+			spd = 0.0;		
+			alarm[0] = 15;
+			active = false;	
+		}
+}
+
+>>>>>>> master
 
 

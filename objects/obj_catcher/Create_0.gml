@@ -5,5 +5,8 @@ caught = false;
 pushreactiontime = 5;
 pushes = 0;
 extrapush = false;
+<<<<<<< HEAD
 extrapushdelay = 5;
+=======
+>>>>>>> master
 

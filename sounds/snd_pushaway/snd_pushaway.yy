@@ -1,8 +1,8 @@
 {
-    "id": "8a676d4f-2d5a-4fc6-ad28-c8fc9b937343",
+    "id": "c5673250-ab29-4a20-be4c-f877bcf9f64e",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_naughty",
+    "name": "snd_pushaway",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

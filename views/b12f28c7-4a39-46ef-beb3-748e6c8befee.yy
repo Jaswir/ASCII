@@ -4,12 +4,12 @@
     "mvc": "1.1",
     "name": "b12f28c7-4a39-46ef-beb3-748e6c8befee",
     "children": [
-        "8a676d4f-2d5a-4fc6-ad28-c8fc9b937343",
-        "d9daab21-33bc-48a5-92c5-62d28207a05d",
-        "8d4bdbee-e9b1-4909-bc22-41762009a36f"
+        "8d4bdbee-e9b1-4909-bc22-41762009a36f",
+        "c5673250-ab29-4a20-be4c-f877bcf9f64e",
+        "865a62a4-bdfe-418b-b3a7-f75f8d11ed83"
     ],
     "filterType": "GMSound",
-    "folderName": "emotions",
+    "folderName": "behaviour",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

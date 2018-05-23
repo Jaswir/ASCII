@@ -1,8 +1,8 @@
 {
-    "id": "d9daab21-33bc-48a5-92c5-62d28207a05d",
+    "id": "865a62a4-bdfe-418b-b3a7-f75f8d11ed83",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_angry",
+    "name": "snd_extrapush",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
